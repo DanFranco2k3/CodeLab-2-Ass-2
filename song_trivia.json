@@ -1,0 +1,125 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Which country does the band Rammstein hail from?",
+            "correct_answer": "Germany",
+            "incorrect_answers": [
+                "Austria",
+                "Armenia",
+                "Belgium"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Which one of these songs did the group &quot;Men At Work&quot; NOT make?",
+            "correct_answer": "Safety Dance",
+            "incorrect_answers": [
+                "Down Under",
+                "Who Can It Be Now?",
+                "It&#039;s a Mistake"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "The 2016 song &quot;Starboy&quot; by Canadian singer The Weeknd features which prominent electronic artist?",
+            "correct_answer": "Daft Punk",
+            "incorrect_answers": [
+                "deadmau5",
+                "Disclosure",
+                "DJ Shadow"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "What 1970&#039;s American ballad referred to the 1959 plane crash as the &quot;the day the music died&quot;?",
+            "correct_answer": "American Pie",
+            "incorrect_answers": [
+                "Kentucky Rain",
+                "I Will Always Love You",
+                "Rock &#039;n&#039; Roll Suicide"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Who is the lead singer of the British pop rock band Coldplay?",
+            "correct_answer": "Chris Martin",
+            "incorrect_answers": [
+                "Jonny Buckland",
+                "Guy Berryman",
+                "Will Champion"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Kanye West&#039;s &quot;Gold Digger&quot; featured which Oscar-winning actor?",
+            "correct_answer": "Jamie Foxx",
+            "incorrect_answers": [
+                "Alec Baldwin",
+                "Dwayne Johnson",
+                " Bruce Willis"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "&quot;Hallelujah&quot; is a song written by which Canadian recording artist?",
+            "correct_answer": "Leonard Cohen",
+            "incorrect_answers": [
+                "Kory Lefkowits",
+                "Ryan Letourneau ",
+                "Justin Bieber "
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "&quot;Grande Valse&quot; is a phrase from the song &quot;Gran Vals&quot;. What is that song segment known as?",
+            "correct_answer": "Nokia Tune",
+            "incorrect_answers": [
+                "Hello Moto [Motorola Ringtone]",
+                "Droid Ringtone",
+                "Microsoft Ringtone"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "What is the name of Rivers Cuomo&#039;s wife?",
+            "correct_answer": "Kyoko Ito",
+            "incorrect_answers": [
+                "Yoko Ono",
+                "Kyary Pamyu Pamyu",
+                "LiSA"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "From which country did the song &quot;Gangnam Style&quot; originate from?",
+            "correct_answer": "South Korea",
+            "incorrect_answers": [
+                "Japan",
+                "North Korea",
+                "China"
+            ]
+        }
+    ]
+}
