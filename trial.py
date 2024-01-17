@@ -53,7 +53,7 @@ def switch_to_frame(frame):
 
 def start_game():
     switch_to_frame(mainframe)
-    questionnaires.hide()
+    questionnaires()
     next_question.config(state='disabled')
     start_button.pack_forget()
     startframe.destroy()
@@ -92,7 +92,7 @@ questions.pack(pady=50)
 
 choices_buttons = []
 for i in range(4):
-    button = Button(mainframe, command=lambda i=i: check_answer(i), bg=button_bg, fg=button_fg, font=font_style)
+    button = Button(mainframe, command=lambda i=i: check_answer(i), bg=button_bg, fg=button_fg, font=font_style, state=DISABLED)
     button.pack(pady=5, padx=100, ipady=10, fill='x')
     choices_buttons.append(button)
 

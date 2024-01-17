@@ -5,120 +5,120 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which group performs the song &quot;Crash into Me&quot;?",
-            "correct_answer": "Dave Matthews Band",
+            "question": "The &quot;K&quot; in &quot;K-Pop&quot; stands for which word?",
+            "correct_answer": "Korean",
             "incorrect_answers": [
-                "Phish",
-                "The Grateful Dead",
-                "Destiny&#039;s Child"
+                "Kenyan",
+                "Kazakhstan",
+                "Kuwaiti"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Kanye West&#039;s &quot;Gold Digger&quot; featured which Oscar-winning actor?",
-            "correct_answer": "Jamie Foxx",
+            "question": "Which English guitarist has the nickname &quot;Slowhand&quot;?",
+            "correct_answer": "Eric Clapton",
             "incorrect_answers": [
-                "Alec Baldwin",
-                "Dwayne Johnson",
-                " Bruce Willis"
+                "Mark Knopfler",
+                "Jeff Beck",
+                "Jimmy Page"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which one of these songs did the group &quot;Men At Work&quot; NOT make?",
-            "correct_answer": "Safety Dance",
+            "question": "In the  Rossini opera, what was the name of &#039;The Barber of Seville&#039;?",
+            "correct_answer": "Figaro",
             "incorrect_answers": [
-                "Down Under",
-                "Who Can It Be Now?",
-                "It&#039;s a Mistake"
+                "Angelo",
+                "Fernando",
+                "Dave"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which of these are NOT a Men at Work song?",
-            "correct_answer": "Basket Case",
+            "question": "What was the subject of the 2014 song &quot;CoCo&quot; by American rapper O. T. Genasis?",
+            "correct_answer": "Cocaine",
             "incorrect_answers": [
-                "Dr. Heckyll and Mr. Jive",
-                "Who Can It Be Now?",
-                "Be Good Johnny"
+                "Conan O&#039;Brien",
+                "Cobalt(II) carbonate",
+                "Coconut cream pie"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which Twitch streamer is the vocalist for Red Vox?",
-            "correct_answer": "Vinesauce",
+            "question": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+            "correct_answer": "Earth",
             "incorrect_answers": [
-                "The8BitDrummer",
-                "LIRIK",
-                "Sodapoppin"
+                "Venus",
+                "Mars",
+                "Uranus"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which singer was featured in Jack &Uuml; (Skrillex &amp; Diplo)&#039;s 2015 song &#039;Where Are &Uuml; Now&#039;?",
-            "correct_answer": "Justin Bieber",
+            "question": "Which of the following is an album by punk rock band Anti-Flag?",
+            "correct_answer": "For Blood And Empire",
             "incorrect_answers": [
-                "Selena Gomez",
-                "Ellie Goulding",
-                "The Weeknd"
+                "Infinity On High",
+                "21st Century Breakdown",
+                "No Pads, No Helmets...Just Balls"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which 80s band is fronted by singer/guitarist Robert Smith?",
-            "correct_answer": "The Cure",
+            "question": "What Led Zeppelin album contains &quot;Stairway to Heaven&quot;?",
+            "correct_answer": "Led Zeppelin IV",
             "incorrect_answers": [
-                "The Smiths",
-                "Echo &amp; the Bunnymen",
-                "New Order"
+                "Houses of the Holy",
+                "Physical Graffiti",
+                "Led Zeppelin III"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Brian May was the guitarist for which band?",
-            "correct_answer": "Queen",
+            "question": "How many studio albums have the duo Daft Punk released?",
+            "correct_answer": "4",
             "incorrect_answers": [
-                "Pink Floyd",
-                "Rolling Stones",
-                "The Doors"
+                "1",
+                "5",
+                "2"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Who is the lead singer of Foo Fighters?",
-            "correct_answer": "Dave Grohl",
+            "question": "Which Beatles album does NOT feature any of the band members on it&#039;s cover?",
+            "correct_answer": "The Beatles (White Album)",
             "incorrect_answers": [
-                "Dave Mustaine",
-                "James Hetfield",
-                "Little Red Riding Hood"
+                "Rubber Soul",
+                "Abbey Road",
+                "Magical Mystery Tour"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "What album did Bon Iver release in 2016?",
-            "correct_answer": "22, A Million",
+            "question": "Which Nirvana album had a naked baby on the cover?",
+            "correct_answer": "Nevermind",
             "incorrect_answers": [
-                "Bon Iver, Bon Iver",
-                "Blood Bank EP",
-                "For Emma, Forever Ago"
+                "Bleach",
+                "In Utero",
+                "Incesticide"
             ]
         }
     ]
