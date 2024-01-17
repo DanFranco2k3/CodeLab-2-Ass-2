@@ -5,48 +5,24 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "The &quot;K&quot; in &quot;K-Pop&quot; stands for which word?",
-            "correct_answer": "Korean",
+            "question": "Kanye West at 2009 VMA&#039;s interrupted which celebrity?",
+            "correct_answer": "Taylor Swift",
             "incorrect_answers": [
-                "Kenyan",
-                "Kazakhstan",
-                "Kuwaiti"
+                "MF DOOM",
+                "Beyonce",
+                "Beck"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which English guitarist has the nickname &quot;Slowhand&quot;?",
-            "correct_answer": "Eric Clapton",
+            "question": "The Red Hot Chili Pepper song &quot;Give It Away&quot; is from what album?",
+            "correct_answer": "Blood Sugar Sex Magik",
             "incorrect_answers": [
-                "Mark Knopfler",
-                "Jeff Beck",
-                "Jimmy Page"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Music",
-            "question": "In the  Rossini opera, what was the name of &#039;The Barber of Seville&#039;?",
-            "correct_answer": "Figaro",
-            "incorrect_answers": [
-                "Angelo",
-                "Fernando",
-                "Dave"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Music",
-            "question": "What was the subject of the 2014 song &quot;CoCo&quot; by American rapper O. T. Genasis?",
-            "correct_answer": "Cocaine",
-            "incorrect_answers": [
-                "Conan O&#039;Brien",
-                "Cobalt(II) carbonate",
-                "Coconut cream pie"
+                "One Hot Minute",
+                "By the Way",
+                "Stadium Arcadium"
             ]
         },
         {
@@ -65,60 +41,84 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which of the following is an album by punk rock band Anti-Flag?",
-            "correct_answer": "For Blood And Empire",
+            "question": "What was Daft Punk&#039;s first studio album?",
+            "correct_answer": "Homework",
             "incorrect_answers": [
-                "Infinity On High",
-                "21st Century Breakdown",
-                "No Pads, No Helmets...Just Balls"
+                "Discovery",
+                "Random Access Memories",
+                "Human After All"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "What Led Zeppelin album contains &quot;Stairway to Heaven&quot;?",
-            "correct_answer": "Led Zeppelin IV",
+            "question": "The 2016 song &quot;Starboy&quot; by Canadian singer The Weeknd features which prominent electronic artist?",
+            "correct_answer": "Daft Punk",
             "incorrect_answers": [
-                "Houses of the Holy",
-                "Physical Graffiti",
-                "Led Zeppelin III"
+                "deadmau5",
+                "Disclosure",
+                "DJ Shadow"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "How many studio albums have the duo Daft Punk released?",
+            "question": "How many strings are there on a cello?",
             "correct_answer": "4",
             "incorrect_answers": [
-                "1",
                 "5",
-                "2"
+                "6",
+                "8"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which Beatles album does NOT feature any of the band members on it&#039;s cover?",
-            "correct_answer": "The Beatles (White Album)",
+            "question": "The Rush song &quot;YYZ&quot; derives its name from the IATA aiport identification code for which city?",
+            "correct_answer": "Toronto",
             "incorrect_answers": [
-                "Rubber Soul",
-                "Abbey Road",
-                "Magical Mystery Tour"
+                "Vancouver",
+                "Ottawa",
+                "Calgary"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which Nirvana album had a naked baby on the cover?",
-            "correct_answer": "Nevermind",
+            "question": "Which Twitch streamer is the vocalist for Red Vox?",
+            "correct_answer": "Vinesauce",
             "incorrect_answers": [
-                "Bleach",
-                "In Utero",
-                "Incesticide"
+                "The8BitDrummer",
+                "LIRIK",
+                "Sodapoppin"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "What is the name of the album released in 2014 by American band Maroon 5?",
+            "correct_answer": "V",
+            "incorrect_answers": [
+                "X",
+                "III",
+                "IV"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Which Canadian reggae musician had a 1993 hit with the song &#039;Informer&#039;?",
+            "correct_answer": "Snow",
+            "incorrect_answers": [
+                "Rain",
+                "Hail",
+                "Sleet"
             ]
         }
     ]
