@@ -53,7 +53,7 @@ def switch_to_frame(frame):
 
 def start_game():
     switch_to_frame(mainframe)
-    questionnaires()
+    questionnaires.hide()
     next_question.config(state='disabled')
     start_button.pack_forget()
     startframe.destroy()

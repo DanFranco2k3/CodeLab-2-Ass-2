@@ -5,60 +5,12 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which country does the band Rammstein hail from?",
-            "correct_answer": "Germany",
+            "question": "Which group performs the song &quot;Crash into Me&quot;?",
+            "correct_answer": "Dave Matthews Band",
             "incorrect_answers": [
-                "Austria",
-                "Armenia",
-                "Belgium"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Music",
-            "question": "Which one of these songs did the group &quot;Men At Work&quot; NOT make?",
-            "correct_answer": "Safety Dance",
-            "incorrect_answers": [
-                "Down Under",
-                "Who Can It Be Now?",
-                "It&#039;s a Mistake"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Music",
-            "question": "The 2016 song &quot;Starboy&quot; by Canadian singer The Weeknd features which prominent electronic artist?",
-            "correct_answer": "Daft Punk",
-            "incorrect_answers": [
-                "deadmau5",
-                "Disclosure",
-                "DJ Shadow"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Music",
-            "question": "What 1970&#039;s American ballad referred to the 1959 plane crash as the &quot;the day the music died&quot;?",
-            "correct_answer": "American Pie",
-            "incorrect_answers": [
-                "Kentucky Rain",
-                "I Will Always Love You",
-                "Rock &#039;n&#039; Roll Suicide"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Music",
-            "question": "Who is the lead singer of the British pop rock band Coldplay?",
-            "correct_answer": "Chris Martin",
-            "incorrect_answers": [
-                "Jonny Buckland",
-                "Guy Berryman",
-                "Will Champion"
+                "Phish",
+                "The Grateful Dead",
+                "Destiny&#039;s Child"
             ]
         },
         {
@@ -77,48 +29,96 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "&quot;Hallelujah&quot; is a song written by which Canadian recording artist?",
-            "correct_answer": "Leonard Cohen",
+            "question": "Which one of these songs did the group &quot;Men At Work&quot; NOT make?",
+            "correct_answer": "Safety Dance",
             "incorrect_answers": [
-                "Kory Lefkowits",
-                "Ryan Letourneau ",
-                "Justin Bieber "
+                "Down Under",
+                "Who Can It Be Now?",
+                "It&#039;s a Mistake"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "&quot;Grande Valse&quot; is a phrase from the song &quot;Gran Vals&quot;. What is that song segment known as?",
-            "correct_answer": "Nokia Tune",
+            "question": "Which of these are NOT a Men at Work song?",
+            "correct_answer": "Basket Case",
             "incorrect_answers": [
-                "Hello Moto [Motorola Ringtone]",
-                "Droid Ringtone",
-                "Microsoft Ringtone"
+                "Dr. Heckyll and Mr. Jive",
+                "Who Can It Be Now?",
+                "Be Good Johnny"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "What is the name of Rivers Cuomo&#039;s wife?",
-            "correct_answer": "Kyoko Ito",
+            "question": "Which Twitch streamer is the vocalist for Red Vox?",
+            "correct_answer": "Vinesauce",
             "incorrect_answers": [
-                "Yoko Ono",
-                "Kyary Pamyu Pamyu",
-                "LiSA"
+                "The8BitDrummer",
+                "LIRIK",
+                "Sodapoppin"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "From which country did the song &quot;Gangnam Style&quot; originate from?",
-            "correct_answer": "South Korea",
+            "question": "Which singer was featured in Jack &Uuml; (Skrillex &amp; Diplo)&#039;s 2015 song &#039;Where Are &Uuml; Now&#039;?",
+            "correct_answer": "Justin Bieber",
             "incorrect_answers": [
-                "Japan",
-                "North Korea",
-                "China"
+                "Selena Gomez",
+                "Ellie Goulding",
+                "The Weeknd"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Which 80s band is fronted by singer/guitarist Robert Smith?",
+            "correct_answer": "The Cure",
+            "incorrect_answers": [
+                "The Smiths",
+                "Echo &amp; the Bunnymen",
+                "New Order"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Brian May was the guitarist for which band?",
+            "correct_answer": "Queen",
+            "incorrect_answers": [
+                "Pink Floyd",
+                "Rolling Stones",
+                "The Doors"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Who is the lead singer of Foo Fighters?",
+            "correct_answer": "Dave Grohl",
+            "incorrect_answers": [
+                "Dave Mustaine",
+                "James Hetfield",
+                "Little Red Riding Hood"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "What album did Bon Iver release in 2016?",
+            "correct_answer": "22, A Million",
+            "incorrect_answers": [
+                "Bon Iver, Bon Iver",
+                "Blood Bank EP",
+                "For Emma, Forever Ago"
             ]
         }
     ]
