@@ -1,1 +1,125 @@
-{"response_code": 0, "results": [{"type": "multiple", "difficulty": "easy", "category": "Entertainment: Music", "question": "What was the subject of the 2014 song &quot;CoCo&quot; by American rapper O. T. Genasis?", "correct_answer": "Cocaine", "incorrect_answers": ["Conan O&#039;Brien", "Cobalt(II) carbonate", "Coconut cream pie"]}, {"type": "multiple", "difficulty": "easy", "category": "Entertainment: Music", "question": "Which rap group released the album &quot;Straight Outta Compton&quot;?", "correct_answer": "N.W.A", "incorrect_answers": ["Wu-Tang Clan", "Run-D.M.C.", "Beastie Boys"]}, {"type": "multiple", "difficulty": "easy", "category": "Entertainment: Music", "question": "How many members are there in the band Nirvana?", "correct_answer": "Three", "incorrect_answers": ["Two", "Four", "Five"]}, {"type": "multiple", "difficulty": "easy", "category": "Entertainment: Music", "question": "According to the American rapper Nelly, what should you do when its hot in here?", "correct_answer": "Take off all your clothes", "incorrect_answers": ["Take a cool shower", "Drink some water", "Go skinny dipping"]}, {"type": "multiple", "difficulty": "easy", "category": "Entertainment: Music", "question": "Who is the lead singer of the British pop rock band Coldplay?", "correct_answer": "Chris Martin", "incorrect_answers": ["Jonny Buckland", "Guy Berryman", "Will Champion"]}, {"type": "multiple", "difficulty": "easy", "category": "Entertainment: Music", "question": "Finish these lyrics from the 2016 song &quot;Panda&quot; by Desiigner: &quot;I got broads in _______&quot;.", "correct_answer": "Atlanta", "incorrect_answers": ["Savannah", "Augusta", "Marietta"]}, {"type": "multiple", "difficulty": "easy", "category": "Entertainment: Music", "question": "&quot;The Singing Cowboy&quot; Gene Autry is credited with the first recording for all but which classic Christmas jingle?", "correct_answer": "White Christmas", "incorrect_answers": ["Frosty the Snowman", "Rudolph the Red-Nosed Reindeer", "Here Comes Santa Claus"]}, {"type": "multiple", "difficulty": "easy", "category": "Entertainment: Music", "question": "Which member of the Foo Fighters was previously the drummer for Nirvana?", "correct_answer": "Dave Grohl", "incorrect_answers": ["Taylor Hawkins", "Nate Mendel", "Chris Shiflett"]}, {"type": "multiple", "difficulty": "easy", "category": "Entertainment: Music", "question": "Brian May was the guitarist for which band?", "correct_answer": "Queen", "incorrect_answers": ["Pink Floyd", "Rolling Stones", "The Doors"]}, {"type": "multiple", "difficulty": "easy", "category": "Entertainment: Music", "question": "What collaborative album was released by Kanye West and Jay-Z in 2011?", "correct_answer": "Watch the Throne", "incorrect_answers": ["Distant Relatives", "What a Time to be Alive", "Unfinished Business"]}]}
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Which band released songs suchs as &quot;Rio&quot;, &quot;Girls on Film&quot;, and &quot;The Reflex&quot;?",
+            "correct_answer": "Duran Duran",
+            "incorrect_answers": [
+                "The Cure",
+                "New Order",
+                "Depeche Mode"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "How many studio albums have the duo Daft Punk released?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                "1",
+                "5",
+                "2"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Brian May was the guitarist for which band?",
+            "correct_answer": "Queen",
+            "incorrect_answers": [
+                "Pink Floyd",
+                "Rolling Stones",
+                "The Doors"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "What was the subject of the 2014 song &quot;CoCo&quot; by American rapper O. T. Genasis?",
+            "correct_answer": "Cocaine",
+            "incorrect_answers": [
+                "Conan O&#039;Brien",
+                "Cobalt(II) carbonate",
+                "Coconut cream pie"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Sting, the lead vocalist of The Police, primarily plays what instrument?",
+            "correct_answer": "Bass Guitar",
+            "incorrect_answers": [
+                "Drums",
+                "Guitar",
+                "Keyboards"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Which of the following is not a studio album by the band Pink Floyd?",
+            "correct_answer": "Moving Pictures",
+            "incorrect_answers": [
+                "The Dark Side of the Moon",
+                "Wish You Were Here",
+                "Animals"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Who is the frontman of the band 30 Seconds to Mars?",
+            "correct_answer": "Jared Leto",
+            "incorrect_answers": [
+                "Gerard Way",
+                "Matthew Bellamy",
+                "Mike Shinoda"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "What is the name of Rivers Cuomo&#039;s wife?",
+            "correct_answer": "Kyoko Ito",
+            "incorrect_answers": [
+                "Yoko Ono",
+                "Kyary Pamyu Pamyu",
+                "LiSA"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Who wrote the Sinead O`Connor hit &#039;Nothing Compares 2 U&#039;?",
+            "correct_answer": "Prince",
+            "incorrect_answers": [
+                "Michael Jackson",
+                "Cameo",
+                "Rick James"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "What Led Zeppelin album contains &quot;Stairway to Heaven&quot;?",
+            "correct_answer": "Led Zeppelin IV",
+            "incorrect_answers": [
+                "Houses of the Holy",
+                "Physical Graffiti",
+                "Led Zeppelin III"
+            ]
+        }
+    ]
+}

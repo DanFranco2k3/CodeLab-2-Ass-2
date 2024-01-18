@@ -8,16 +8,15 @@ from html import unescape
 # Questionnaires
 def questionnaires():
     question = unescape(data['results'][0]['question'])
-    answer_corrected = unescape(data['results'][0]['answer_corrected'])
-    answer_incorrected_list = unescape(data['results'][0]['answer_incorrected_list'])
-    answers_given = unescape(answer_incorrected_list + [answer_corrected])
-    random.shuffle(answers_given)
+    answer_correct_choice = unescape(data['results'][0]['correct_answer'])
+    result_enabler_label.config(text=answer_correct_choice)
+    answer_incorrected_list = unescape(data['results'][0]['incorrect_answers'])
+    answers_given = unescape(answer_incorrected_list + [answer_correct_choice])
 
     questions.config(text=question, fg='black')
     # answer button_widgets
-    for l in range(4):
-        choices_givens_buttons[l].config(text=answers_given[l], state='normal')
-
+    for i in range(4):
+        choices_givens_buttons[i].config(choices_givens_buttons[i], text=answers_given[i], state='normal')
     #result
     result_enabler_label.config(text='', background='lightblue', foreground='black')
     nxt_q.config(state='disabled')
@@ -26,8 +25,8 @@ def questionnaires():
 def answer_checker(choices_given):
     choices_given = choices_givens_buttons[choices_given]['text']
 
-    if choices_given == data['results'][0]['answer_corrected']:
-        global score
+    if choices_given == data['results'][0]['correct_answer']:
+        global score_added
         score_added += 2
         score_tally.config(text=f'Score - tally: {score_added}/20', fg='lightblue', bg='black')
         result_enabler_label.config(text='Nice Answer! On to the next!', foreground='lightblue', background='black')
@@ -51,7 +50,7 @@ def nxt_q():
     else:
         result_enabler_label.config(text='Quiz complete! Thank you for answering!', foreground='white', background='black')
         nxt_q.config(state='disabled')
-        button_widget(mainframe, text='Quit', command=root.destroy, bg=button_bg, fg=button_fg, font=font_style).pack(pady=10)
+        Button(mainframe, text='Quit', command=root.destroy, bg=button_bg, fg=button_fg, font=font_style).pack(pady=10)
 
 # frame switching
 def frame_switching(frame):
@@ -82,7 +81,7 @@ data = response.json()
 
 # write data to JSON
 with open('song_trivia.json', 'w') as file:
-    json.dump(data, file)
+    json.dump(data, file , indent=4)
 
 # Start Frame
 startframe = Frame(root, bg='lightblue')
@@ -105,18 +104,18 @@ choices_givens_buttons = []
 for i in range(4):
     button_widget = Button(mainframe, command=lambda i=i: answer_checker(i), bg=button_bg, fg=button_fg, font=font_style, state=DISABLED)
     button_widget.pack(pady=5, padx=100, ipady=10, fill='x')
-    choices_givens_buttons.append(Button)
+    choices_givens_buttons.append(button_widget)
 
 result_enabler_label = Label(mainframe, anchor=CENTER, font=font_style) 
 result_enabler_label.pack(pady=10)
 
 # Score Frame
-score = 0
+score_added = 0
 
 score_tally = Label(mainframe, text=f'Score: 0/20', anchor=CENTER, font=font_style, bg='lightblue', fg='black')
 score_tally.pack(pady=10)
 
-# Next button_widget
+# Next button
 nxt_q = Button(mainframe, text='Next', command=nxt_q, state=DISABLED, bg=button_bg, fg=button_fg, font=font_style, width=7, height=2)
 nxt_q.pack(pady=10)
 
