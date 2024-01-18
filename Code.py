@@ -117,7 +117,7 @@ score_tally = Label(mainframe, text=f'Score: 0/20', anchor=CENTER, font=font_sty
 score_tally.pack(pady=10)
 
 # Next button_widget
-nxt_q = button_widget(mainframe, text='Next', command=nxt_q, state=DISABLED, bg=button_bg, fg=button_fg, font=font_style, width=7, height=2)
+nxt_q = Button(mainframe, text='Next', command=nxt_q, state=DISABLED, bg=button_bg, fg=button_fg, font=font_style, width=7, height=2)
 nxt_q.pack(pady=10)
 
 mainframe.pack()  # Pack the main frame
