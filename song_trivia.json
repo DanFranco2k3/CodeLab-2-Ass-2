@@ -5,120 +5,120 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "In Mean Girls, who has breasts that tell when it&#039;s raining?",
-            "correct_answer": "Karen Smith",
+            "question": "What Led Zeppelin album contains &quot;Stairway to Heaven&quot;?",
+            "correct_answer": "Led Zeppelin IV",
             "incorrect_answers": [
-                "Gretchen Weiners",
-                "Janice Ian",
-                "Cady Heron"
+                "Houses of the Holy",
+                "Physical Graffiti",
+                "Led Zeppelin III"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which member of the Foo Fighters was previously the drummer for Nirvana?",
-            "correct_answer": "Dave Grohl",
+            "question": "Which year was the album &quot;Year of the Snitch&quot; by Death Grips released?",
+            "correct_answer": "2018",
             "incorrect_answers": [
-                "Taylor Hawkins",
-                "Nate Mendel",
-                "Chris Shiflett"
+                "2013",
+                "2017",
+                "2011"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "The band Muse released their first album, Showbiz, in what year?",
-            "correct_answer": "1999",
+            "question": "Who is the lead singer of Pearl Jam?",
+            "correct_answer": "Eddie Vedder",
             "incorrect_answers": [
-                "1998",
-                "2000",
-                "2001"
+                "Ozzy Osbourne",
+                "Stone Gossard",
+                "Kurt Cobain"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "What album did The Lumineers release in 2016?",
-            "correct_answer": "Cleopatra",
+            "question": "Who is the lead singer of Green Day?",
+            "correct_answer": "Billie Joe Armstrong",
             "incorrect_answers": [
-                "Winter",
-                "The Lumineers",
-                "Tracks From The Attic"
+                "Mike Dirnt",
+                "Sean Hughes",
+                "Tr&eacute; Cool"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "How many strings are there on a cello?",
-            "correct_answer": "4",
+            "question": "What was the name of singer Frank Ocean&#039;s second studio album, which was released on August 20, 2016?",
+            "correct_answer": "Blonde",
             "incorrect_answers": [
-                "5",
-                "6",
-                "8"
+                "Brunette",
+                "Black",
+                "Burgundy"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which song on Daft Punk&#039;s &quot;Random Access Memories&quot; features Pharrell Williams?",
-            "correct_answer": "Get Lucky",
+            "question": "Who had a 1983 hit with the song &#039;Africa&#039;?",
+            "correct_answer": "Toto",
             "incorrect_answers": [
-                "Doin&#039; It Right",
-                "Instant Crush",
-                "The Game of Love"
+                "Foreigner",
+                "Steely Dan",
+                "Journey"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "&quot;Some people call me the space cowboy&quot; is the first line from what song?",
-            "correct_answer": "The Joker",
+            "question": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+            "correct_answer": "Earth",
             "incorrect_answers": [
-                "Fandango",
-                "Take The Money and Run",
-                "Fly Like an Eagle"
+                "Venus",
+                "Mars",
+                "Uranus"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "What was the subject of the 2014 song &quot;CoCo&quot; by American rapper O. T. Genasis?",
-            "correct_answer": "Cocaine",
+            "question": "Which of these are NOT a Men at Work song?",
+            "correct_answer": "Basket Case",
             "incorrect_answers": [
-                "Conan O&#039;Brien",
-                "Cobalt(II) carbonate",
-                "Coconut cream pie"
+                "Dr. Heckyll and Mr. Jive",
+                "Who Can It Be Now?",
+                "Be Good Johnny"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Which Beatles album does NOT feature any of the band members on it&#039;s cover?",
-            "correct_answer": "The Beatles (White Album)",
+            "question": "Whose albums included &quot;Back in Black&quot; and &quot;Ballbreaker&quot;?",
+            "correct_answer": "AC/DC",
             "incorrect_answers": [
-                "Rubber Soul",
-                "Abbey Road",
-                "Magical Mystery Tour"
+                "Iron Maiden",
+                "Black Sabbath",
+                "Metallica"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Who was featured in the song &quot;Words&quot; by Feint? ",
-            "correct_answer": "Laura Brehm",
+            "question": "Which of these is NOT the name of an album released by English singer-songwriter Adele?",
+            "correct_answer": "12",
             "incorrect_answers": [
-                "Anna Yvette ",
-                "Danyka Nadeau",
-                "Veela"
+                "19",
+                "21",
+                "25"
             ]
         }
     ]

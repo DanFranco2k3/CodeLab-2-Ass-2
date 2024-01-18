@@ -14,7 +14,7 @@ def questionnaires():
     answers_given = unescape(answer_incorrected_list + [answer_correct_choice])
 
     questions.config(text=question, fg='black')
-    # answer button_widgets
+    # answer widget_choice_buttons
     for i in range(4):
         choices_givens_buttons[i].config(choices_givens_buttons[i], text=answers_given[i], state='normal')
     #result
@@ -31,16 +31,16 @@ def answer_checker(choices_given):
         score_tally.config(text=f'score - tally: {added_score}/20', fg='lightblue', bg='black')
         result_enabler_label.config(text='Nice Answer! On to the next!', foreground='lightblue', background='black')
         
-        for button_widget in choices_givens_buttons:
-            button_widget.config(state='disabled')
+        for widget_choice_button in choices_givens_buttons:
+            widget_choice_button.config(state='disabled')
         nxt_q.config(state='normal')
     else:
         result_enabler_label.config(text='Better luck next time!', foreground='lightblue', background='black')
-        for button_widget in choices_givens_buttons:
-            button_widget.config(state='disabled')
+        for widget_choice_button in choices_givens_buttons:
+            widget_choice_button.config(state='disabled')
         nxt_q.config(state='normal')
 
-# when the question is answered and the next button_widget is pressed
+# when the question is answered and the next widget_choice_button is pressed
 def nxt_q():
     data['results'].pop(0)
     if len(data['results']) > 0:
@@ -102,9 +102,9 @@ questions.pack(pady=50)
 # Answer Frame
 choices_givens_buttons = []
 for i in range(4):
-    button_widget = Button(mainframe, command=lambda i=i: answer_checker(i), bg=button_bg, fg=button_fg, font=font_style, state=DISABLED)
-    button_widget.pack(pady=5, padx=100, ipady=10, fill='x')
-    choices_givens_buttons.append(button_widget)
+    widget_choice_button = Button(mainframe, command=lambda i=i: answer_checker(i), bg=button_bg, fg=button_fg, font=font_style, state=DISABLED)
+    widget_choice_button.pack(pady=5, padx=100, ipady=10, fill='x')
+    choices_givens_buttons.append(widget_choice_button)
 
 result_enabler_label = Label(mainframe, anchor=CENTER, font=font_style) 
 result_enabler_label.pack(pady=10)
