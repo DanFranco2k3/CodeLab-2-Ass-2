@@ -7,16 +7,16 @@ from html import unescape
 
 # Questionnaires
 def questionnaires():
-    question = unescape(data['results'][0]['question'])
-    correct_answer = unescape(data['results'][0]['correct_answer'])
-    incorrect_answers = unescape(data['results'][0]['incorrect_answers'])
-    answers = unescape(incorrect_answers + [correct_answer])
-    random.shuffle(answers)
+    question = unescape(data['list'][0]['questions_api'])
+    answer_corrected = unescape(data['list'][0]['answer_corrected'])
+    answer_incorrected_list = unescape(data['list'][0]['answer_incorrected_list'])
+    answers_given = unescape(answer_incorrected_list + [answer_corrected])
+    random.shuffle(answers_given)
 
     questions.config(text=question, fg='black')
     # answer buttons
-    for i in range(4):
-        choices_buttons[i].config(text=answers[i], state='normal')
+    for l in range(4):
+        choices_buttons[l].config(text=answers_given[l], state='normal')
 
     #result
     result_enabler_label.config(text='', background='lightblue', foreground='black')
@@ -26,7 +26,7 @@ def questionnaires():
 def check_answer(choice):
     choice = choices_buttons[choice]['text']
 
-    if choice == data['results'][0]['correct_answer']:
+    if choice == data['results'][0]['answer_corrected']:
         global score
         score += 1
         score_tally.config(text=f'Score: {score}/10')

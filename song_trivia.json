@@ -1,25 +1,25 @@
 {
     "response_code": 0,
-    "results": [
+    "list": [
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "Kanye West at 2009 VMA&#039;s interrupted which celebrity?",
-            "correct_answer": "Taylor Swift",
-            "incorrect_answers": [
-                "MF DOOM",
-                "Beyonce",
-                "Beck"
+            "questions_api": "&quot;The Singing Cowboy&quot; Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
+            "answer_corrected": "White Christmas",
+            "answer_incorrected_list": [
+                "Frosty the Snowman",
+                "Rudolph the Red-Nosed Reindeer",
+                "Here Comes Santa Claus"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "The Red Hot Chili Pepper song &quot;Give It Away&quot; is from what album?",
-            "correct_answer": "Blood Sugar Sex Magik",
-            "incorrect_answers": [
+            "questions_api": "The Red Hot Chili Pepper song &quot;Give It Away&quot; is from what album?",
+            "answer_corrected": "Blood Sugar Sex Magik",
+            "answer_incorrected_list": [
                 "One Hot Minute",
                 "By the Way",
                 "Stadium Arcadium"
@@ -29,33 +29,81 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "According to a song by Belinda Carlisle, Heaven is a place on what?",
-            "correct_answer": "Earth",
-            "incorrect_answers": [
-                "Venus",
-                "Mars",
-                "Uranus"
+            "questions_api": "Which punk rock band released hit songs such as &quot;Californication&quot;, &quot;Can&#039;t Stop&quot; and &quot;Under the Bridge&quot;?",
+            "answer_corrected": "Red Hot Chilli Peppers",
+            "answer_incorrected_list": [
+                "Green Day",
+                "Linkin Park",
+                "Foo Fighters"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "What was Daft Punk&#039;s first studio album?",
-            "correct_answer": "Homework",
-            "incorrect_answers": [
-                "Discovery",
-                "Random Access Memories",
-                "Human After All"
+            "questions_api": "Who wrote the Sinead O`Connor hit &#039;Nothing Compares 2 U&#039;?",
+            "answer_corrected": "Prince",
+            "answer_incorrected_list": [
+                "Michael Jackson",
+                "Cameo",
+                "Rick James"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "The 2016 song &quot;Starboy&quot; by Canadian singer The Weeknd features which prominent electronic artist?",
-            "correct_answer": "Daft Punk",
-            "incorrect_answers": [
+            "questions_api": "Who is the lead singer of Green Day?",
+            "answer_corrected": "Billie Joe Armstrong",
+            "answer_incorrected_list": [
+                "Mike Dirnt",
+                "Sean Hughes",
+                "Tr&eacute; Cool"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "questions_api": "What is the best selling album of all time from 1976 to 2018?",
+            "answer_corrected": "Thriller",
+            "answer_incorrected_list": [
+                "Back in Black",
+                "Abbey Road",
+                "The Dark Side of the Moon"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "questions_api": "Which country does the band Rammstein hail from?",
+            "answer_corrected": "Germany",
+            "answer_incorrected_list": [
+                "Austria",
+                "Armenia",
+                "Belgium"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "questions_api": "Kanye West&#039;s &quot;Gold Digger&quot; featured which Oscar-winning actor?",
+            "answer_corrected": "Jamie Foxx",
+            "answer_incorrected_list": [
+                "Alec Baldwin",
+                "Dwayne Johnson",
+                " Bruce Willis"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "questions_api": "The 2016 song &quot;Starboy&quot; by Canadian singer The Weeknd features which prominent electronic artist?",
+            "answer_corrected": "Daft Punk",
+            "answer_incorrected_list": [
                 "deadmau5",
                 "Disclosure",
                 "DJ Shadow"
@@ -65,60 +113,12 @@
             "type": "multiple",
             "difficulty": "easy",
             "category": "Entertainment: Music",
-            "question": "How many strings are there on a cello?",
-            "correct_answer": "4",
-            "incorrect_answers": [
-                "5",
-                "6",
-                "8"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Music",
-            "question": "The Rush song &quot;YYZ&quot; derives its name from the IATA aiport identification code for which city?",
-            "correct_answer": "Toronto",
-            "incorrect_answers": [
-                "Vancouver",
-                "Ottawa",
-                "Calgary"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Music",
-            "question": "Which Twitch streamer is the vocalist for Red Vox?",
-            "correct_answer": "Vinesauce",
-            "incorrect_answers": [
-                "The8BitDrummer",
-                "LIRIK",
-                "Sodapoppin"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Music",
-            "question": "What is the name of the album released in 2014 by American band Maroon 5?",
-            "correct_answer": "V",
-            "incorrect_answers": [
-                "X",
-                "III",
-                "IV"
-            ]
-        },
-        {
-            "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Music",
-            "question": "Which Canadian reggae musician had a 1993 hit with the song &#039;Informer&#039;?",
-            "correct_answer": "Snow",
-            "incorrect_answers": [
-                "Rain",
-                "Hail",
-                "Sleet"
+            "questions_api": "Which of the following is an album by punk rock band Anti-Flag?",
+            "answer_corrected": "For Blood And Empire",
+            "answer_incorrected_list": [
+                "Infinity On High",
+                "21st Century Breakdown",
+                "No Pads, No Helmets...Just Balls"
             ]
         }
     ]
