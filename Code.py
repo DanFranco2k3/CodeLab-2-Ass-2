@@ -7,10 +7,10 @@ from html import unescape
 
 # Questionnaires
 def questionnaires():
-    question = unescape(data['list'][0]['questions_api'])
-    answer_corrected = unescape(data['list'][0]['answer_corrected'])
-    answer_incorrected_list = unescape(data['list'][0]['answer_incorrected_list'])
-    answers_given = unescape(answer_incorrected_list + [answer_corrected])
+    question = unescape(data['data'][0]['question'])
+    answer_corrected = unescape(data['data'][0]['answer_corrected'])
+    answer_incorrected_data = unescape(data['data'][0]['answer_incorrected_data'])
+    answers_given = unescape(answer_incorrected_data + [answer_corrected])
     random.shuffle(answers_given)
 
     questions.config(text=question, fg='black')
@@ -26,7 +26,7 @@ def questionnaires():
 def answer_checker(choices_given):
     choices_given = choices_givens_buttons[choices_given]['text']
 
-    if choices_given == data['list'][0]['answer_corrected']:
+    if choices_given == data['data'][0]['answer_corrected']:
         global score
         score_added += 2
         score_tally.config(text=f'Score - tally: {score_added}/20', fg='lightblue', bg='black')
@@ -43,8 +43,8 @@ def answer_checker(choices_given):
 
 # when the question is answered and the next button_widget is pressed
 def nxt_q():
-    data['list'].pop(0)
-    if len(data['list']) > 0:
+    data['data'].pop(0)
+    if len(data['data']) > 0:
         questionnaires()
         
         # the quiz is complete, now they have to press quit in order to quit the app
