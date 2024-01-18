@@ -7,7 +7,7 @@ from html import unescape
 
 # Questionnaires
 def questionnaires():
-    question = unescape(data['results'][0]['questions_api'])
+    question = unescape(data['results'][0]['question'])
     answer_corrected = unescape(data['results'][0]['answer_corrected'])
     answer_incorrected_list = unescape(data['results'][0]['answer_incorrected_list'])
     answers_given = unescape(answer_incorrected_list + [answer_corrected])
