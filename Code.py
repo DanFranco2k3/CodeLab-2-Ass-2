@@ -26,9 +26,9 @@ def answer_checker(choices_given):
     choices_given = choices_givens_buttons[choices_given]['text']
 
     if choices_given == data['results'][0]['correct_answer']:
-        global score_added
-        score_added += 2
-        score_tally.config(text=f'Score - tally: {score_added}/20', fg='lightblue', bg='black')
+        global added_score
+        added_score += 2
+        score_tally.config(text=f'score - tally: {added_score}/20', fg='lightblue', bg='black')
         result_enabler_label.config(text='Nice Answer! On to the next!', foreground='lightblue', background='black')
         
         for button_widget in choices_givens_buttons:
@@ -110,7 +110,7 @@ result_enabler_label = Label(mainframe, anchor=CENTER, font=font_style)
 result_enabler_label.pack(pady=10)
 
 # Score Frame
-score_added = 0
+added_score = 0
 
 score_tally = Label(mainframe, text=f'Score: 0/20', anchor=CENTER, font=font_style, bg='lightblue', fg='black')
 score_tally.pack(pady=10)
